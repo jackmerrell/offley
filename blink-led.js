@@ -8,9 +8,9 @@ board = new jfive.Board();
 board.on("ready", function() {
 
   // 10 represents the pin number that the LED is plugged into.
-  led = new jfive.Led(10)
+  led = new jfive.Led(13)
 
   // The LED blinks (i.e. turns on and off) every 1000 milliseconds.
   led.blink(1000);
-  
+
 });
